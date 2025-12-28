@@ -1,4 +1,3 @@
-// src/utils/maze/gameBoard.ts
 import type { Grid } from "../../types/search/grid.js";
 
 export const createEmptyGrid = (size: number): Grid => {
