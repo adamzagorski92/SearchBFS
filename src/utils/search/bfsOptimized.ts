@@ -1,12 +1,5 @@
-// src/algorithms/bfs/bfsOptimized.ts
 import type { Grid, Position, QueueNode } from "../../types/search/grid.js";
 
-/**
- * ZOPTYMALIZOWANA WERSJA BFS
- * - Bez zbędnych logów
- * - Set zamiast Boolean[][]
- * - Early termination
- */
 export const bfsShortestPathOptimized = (
   grid: Grid,
   start: Position,
